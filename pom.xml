@@ -16,7 +16,7 @@
         <hibernate.version>4.3.11.Final</hibernate.version>
         <org.aspectj-version>1.7.4</org.aspectj-version>
         <mysql.connector.version>5.1.31</mysql.connector.version>
-        <springsecurity.version>4.0.4.RELEASE</springsecurity.version>
+        
     </properties>
     
     <dependencies>
@@ -109,31 +109,7 @@
             <artifactId>log4j</artifactId>
             <version>1.2.14</version>
         </dependency>
-        <dependency>
-<groupId>org.springframework.security</groupId>
-<artifactId>spring-security-core</artifactId>
-<version>${springsecurity.version}</version>
-</dependency>
-<dependency>
-<groupId>org.springframework.security</groupId>
-<artifactId>spring-security-web</artifactId>
-<version>${springsecurity.version}</version>
-</dependency>
-<dependency>
-    <groupId>org.springframework.security</groupId>
-<artifactId>spring-security-config</artifactId>
-<version>${springsecurity.version}</version>
-</dependency>
-<dependency>
-<groupId>org.springframework.security</groupId>
-<artifactId>spring-security-taglibs</artifactId>
-<version>${springsecurity.version}</version>
-</dependency>
-<dependency>
-<groupId>org.springframework</groupId>
-        <artifactId>spring-context</artifactId>
-        <version>${springsecurity.version}</version>
-    </dependency>
+    
 
 
     </dependencies>
